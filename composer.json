@@ -2,7 +2,6 @@
   "name": "xiaowang/demo",
   "description": "This project is for studying php composer package development",
   "type": "library",
-  "homepage": "https://chengfeng.site",
   "license": "MIT",
   "autoload": {
     "psr-4": {
@@ -13,25 +12,5 @@
     "psr-4": {
       "Test\\": "tests/"
     }
-  },
-  "authors": [
-    {
-      "name": "xiaowang1",
-      "email": "drondyw@gmail.com"
-    }
-  ],
-  "require-dev": {
-    "phpunit/phpunit": "^6.5"
-  },
-  "repositories": {
-    "packagist": {
-      "type": "composer",
-      "url": "https://packagist.uuzu.com"
-    },
-    "redis-packagit":{
-      "type":"composer",
-      "url":"https://packagist.phpcomposer.com"
-    }
-
   }
 }
